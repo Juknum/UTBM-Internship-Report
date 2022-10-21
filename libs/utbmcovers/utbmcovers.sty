@@ -50,6 +50,7 @@
 
 \definecolor{utbm_cover_main}{RGB}{255,244,95}
 \definecolor{utbm_cover_main_text}{RGB}{0,0,0}
+\definecolor{utbm_cover_main_no_background}{RGB}{0,0,0}
 \definecolor{utbm_cover_main_shadow_text}{RGB}{128,128,128}
 
 %----------------------------------------
@@ -289,10 +290,10 @@
 			utbm text,
 			fill=utbm_cover_univname,
 			text=utbm_cover_univname_text,
-			minimum height=0.8cm,
+			minimum height=1cm,
 		]
 		(schoolname) at (anchor.north)
-		{\tahomafont\fontsize{14.4}{17.2}\selectfont \@utbmschoolname};
+		{\tahomafont\fontsize{14pt}{1cm}\selectfont \@utbmschoolname};
 
 		\node[utbm text,
 			fill=utbm_cover_title,
@@ -313,7 +314,7 @@
 		\node[
 			utbm rectangle,
 			fill=utbm_cover_main,
-			minimum height=13.65cm,
+			minimum height=13cm,
 		]
 		(information) at (subtitle.south)
 		{};
@@ -325,9 +326,9 @@
 			minimum height=0.8cm,
 		]
 		(student) at (subtitle.south)
-		{\tahomafont\bfseries {\fontsize{18}{22}\selectfont \@utbmstudent}\\
+		{\tahomafont\bfseries {\color{utbm_cover_main_text} \fontsize{18}{22}\selectfont \@utbmstudent}\\
 		\hfil\\
-		{\fontsize{10}{12}\selectfont \@utbmstudentdepartment\\
+		{\color{utbm_cover_main_text} \fontsize{10}{12}\selectfont \@utbmstudentdepartment\\
 		{\color{utbm_cover_main_shadow_text} \@utbmstudentpathway}}};
 
 		\node[
@@ -437,7 +438,7 @@
 		\node[
 			utbm rectangle,
 			fill=utbm_cover_main,
-			minimum height=17.25cm,
+			minimum height=16.8cm,
 		]
 		(information) at (line.south)
 		{};
@@ -450,7 +451,7 @@
 			minimum height=0.8cm,
 		]
 		(keywords) at (anchor.north)
-		{\tahomafont\fontsize{12}{14}\selectfont {\bfseries \@utbmkeywordstext}\\
+		{\color{utbm_cover_main_no_background} \tahomafont\fontsize{12}{14}\selectfont {\bfseries \@utbmkeywordstext}\\
 		\hfil\\
 		\@utbmkeywords};
 
@@ -462,7 +463,7 @@
 			minimum height=0.8cm,
 		]
 		(student) at (line.north)
-		{\tahomafont\fontsize{14}{17}\selectfont\bfseries \@utbmstudent};
+		{\color{utbm_cover_main_no_background} \tahomafont\fontsize{14}{17}\selectfont\bfseries \@utbmstudent};
 
 		\node[
 			yshift=0.25cm,
@@ -473,7 +474,7 @@
 			minimum height=0.8cm,
 		]
 		(subtitle) at (line.north)
-		{\tahomafont\fontsize{14}{17}\selectfont\bfseries \@utbmsubtitle};
+		{\color{utbm_cover_main_no_background} \tahomafont\fontsize{14}{17}\selectfont\bfseries \@utbmsubtitle};
 
 		\node[
 			yshift=-1.2cm,

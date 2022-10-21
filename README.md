@@ -32,10 +32,10 @@ This template has been made for and with [Visual Studio Code](https://code.visua
 
 You can find all configurable options of UTBM covers within the below code, but if you feel unhappy you can still edit the covers [with this file here](https://github.com/Juknum/UTBM-Internship-Report/blob/main/libs/utbmcovers/utbmcovers.sty).  
 <!-- Code block mention (GitHub markdown feature) -->
-https://github.com/Juknum/UTBM-Internship-Report/blob/5efb7ada99347365c05b60468dda4d3922df6040/main.tex#L7-L48
+https://github.com/Juknum/UTBM-Internship-Report/blob/019a0ab83cf017845094d0e7b5cbc7269b072c82/main.tex#L7-L48
 
 You can also modify colors using those variables:  
-https://github.com/Juknum/UTBM-Internship-Report/blob/5efb7ada99347365c05b60468dda4d3922df6040/libs/utbmcovers/utbmcovers.sty#L36-L54
+https://github.com/Juknum/UTBM-Internship-Report/blob/019a0ab83cf017845094d0e7b5cbc7269b072c82/libs/utbmcovers/utbmcovers.sty#L36-L55
 
 Finally you can call both covers using:
 

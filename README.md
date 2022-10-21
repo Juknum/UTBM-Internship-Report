@@ -32,9 +32,12 @@ This template has been made for and with [Visual Studio Code](https://code.visua
 
 You can find all configurable options of UTBM covers within the below code, but if you feel unhappy you can still edit the covers [with this file here](https://github.com/Juknum/UTBM-Internship-Report/blob/main/libs/utbmcovers/utbmcovers.sty).  
 <!-- Code block mention (GitHub markdown feature) -->
-https://github.com/Juknum/UTBM-Internship-Report/blob/de988469c459672d62bd60f8e244c67c5a207df8/main.tex#L7-L47
+https://github.com/Juknum/UTBM-Internship-Report/blob/5efb7ada99347365c05b60468dda4d3922df6040/main.tex#L7-L48
 
-Then you can call both covers using:
+You can also modify colors using those variables:  
+https://github.com/Juknum/UTBM-Internship-Report/blob/5efb7ada99347365c05b60468dda4d3922df6040/libs/utbmcovers/utbmcovers.sty#L36-L54
+
+Finally you can call both covers using:
 
 ```tex
 \makeutbmfrontcover{} % Front cover
@@ -50,7 +53,7 @@ Covers support english and french languages, you can change the language using t
 
 ### 4. Compile
 
-To compile the report, you can use the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> shortcut or the `LaTeX Workshop: Build LaTeX project` command.
+To compile the report, you can use the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> shortcut or the `LaTeX Workshop: Build LaTeX project` command inside Visual Studio Code.
 
 ## II. Requirements
 

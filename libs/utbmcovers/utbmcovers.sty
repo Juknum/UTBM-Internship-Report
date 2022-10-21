@@ -191,6 +191,12 @@
 \newcommand{\@utbmcompanywebsite}{\@defaultutbmcompanywebsite}
 
 %-----
+% Set the company logo
+% \setutbmcompanylogo{filename}
+\newcommand{\setutbmcompanylogo}[1]{\renewcommand{\@utbmcompanylogo}{#1}}
+\newcommand{\@utbmcompanylogo}{\@defaultutbmcompanylogo}
+
+%-----
 % Set the company tutor
 % \setutbmcompanytutor{tutor}
 \newcommand{\setutbmcompanytutor}[1]{\renewcommand{\@utbmcompanytutor}{#1}}
@@ -358,12 +364,21 @@
 
 		\node[
 			yshift=0.7cm,
+			xshift=1cm,
+			inner sep=0pt,
+			anchor=south west,
+		]
+		(companylogo) at (anchor.south west)
+		{\includegraphics[height=2.18cm]{\@utbmcompanylogo}};
+
+		\node[
+			yshift=0.7cm,
 			xshift=-1cm,
 			inner sep=0pt,
 			anchor=south east,
 		]
 		(schoollogo) at (anchor.south east)
-		{\includegraphics[width=5.18cm]{\@utbmschoollogo}};
+		{\includegraphics[height=2.18cm]{\@utbmschoollogo}};
 	\end{tikzpicture}
 	\newpage{}
 }
@@ -487,12 +502,21 @@
 
 		\node[
 			yshift=0.7cm,
+			xshift=1cm,
+			inner sep=0pt,
+			anchor=south west,
+		]
+		(companylogo) at (anchor.south west)
+		{\includegraphics[height=2.18cm]{\@utbmcompanylogo}};
+
+		\node[
+			yshift=0.7cm,
 			xshift=-1cm,
 			inner sep=0pt,
 			anchor=south east,
 		]
 		(schoollogo) at (anchor.south east)
-		{\includegraphics[width=5.18cm]{\@utbmschoollogo}};
+		{\includegraphics[height=2.18cm]{\@utbmschoollogo}};
 	\end{tikzpicture}
 }
 

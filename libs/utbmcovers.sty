@@ -57,7 +57,7 @@
 % Font definition
 %----------------------------------------
 
-\newfontfamily\tahomafont{Tahoma}
+\newfontfamily\tahomafont{Tahoma.ttf}[Path=./assets/fonts/, Extension=.ttf, BoldFont = *Bold]
 
 %----------------------------------------
 % Default values
@@ -70,7 +70,7 @@
 \newcommand{\@defaultutbmschooltutortext}{\iflanguage{french}{Suiveur UTBM}{UTBM tutor}}
 \newcommand{\@defaultutbmkeywordstext}{\iflanguage{french}{Mots clefs}{Keywords}}
 \newcommand{\@defaultutbmabstracttext}{\iflanguage{french}{Résumé}{Abstract}}
-\newcommand{\@defaultutbmschoollogo}{assets/utbm_logo}
+\newcommand{\@defaultutbmschoollogo}{assets/images/utbm_logo}
 
 %-----
 % Default texts and images related to the student or the company
@@ -340,7 +340,7 @@
 		(company) at (subtitle.south)
 		{\tahomafont\bfseries {\fontsize{20}{24}\selectfont \@utbmcompany}\\
 		{\fontsize{12}{14}\selectfont\color{utbm_cover_main_shadow_text} \@utbmcompanyaddress\\
-		\@utbmcompanywebsite}};
+		\url{\@utbmcompanywebsite}}};
 
 		\node[
 			yshift=-10.8cm,
@@ -499,7 +499,7 @@
 		(company) at (information.south)
 		{\tahomafont\bfseries {\fontsize{20}{24}\selectfont \@utbmcompany}\\
 		{\fontsize{12}{14}\selectfont\color{utbm_cover_main_shadow_text} \@utbmcompanyaddress\\
-		\@utbmcompanywebsite}};
+		\url{\@utbmcompanywebsite}}};
 
 		\node[
 			yshift=0.7cm,

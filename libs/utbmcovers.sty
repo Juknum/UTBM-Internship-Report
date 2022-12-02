@@ -231,7 +231,6 @@
 \newcommand{\makeutbmfrontcover}[1][(0,0)]{
 	\clearpage
 	\thispagestyle{empty}
-	\parindent0pt
 	\begin{tikzpicture}[remember picture,overlay]
 		\tikzset{
 			utbm text/.style={
@@ -390,7 +389,6 @@
 \newcommand{\makeutbmbackcover}[1][(0,0)]{
 	\clearpage \ifodd\value{page}\hbox{}\newpage\fi
 	\thispagestyle{empty}
-	\parindent0pt
 	\begin{tikzpicture}[remember picture,overlay]
 		\tikzset{
 			utbm text/.style={

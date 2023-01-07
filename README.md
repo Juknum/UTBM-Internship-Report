@@ -43,7 +43,7 @@ You can find all configurable options of UTBM covers within the below code, but 
 https://github.com/Juknum/UTBM-Internship-Report/blob/4a4aa097a3e6e16853c590cfbe10ac1e0bdc5c03/main.tex#L19-L40
 
 You can also modify colors using those variables:  
-https://github.com/Juknum/UTBM-Internship-Report/blob/4a4aa097a3e6e16853c590cfbe10ac1e0bdc5c03/libs/utbmcovers/utbmcovers.sty#L36-L55
+https://github.com/Juknum/UTBM-Internship-Report/blob/3770f6fc659221329e1ce872e1351e1b71ad1892/libs/utbmcovers.sty#L36-L55
 
 Finally you can call both covers using:
 

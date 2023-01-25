@@ -35,7 +35,7 @@
 
 \setutbmfrontillustration{assets/images/utbm_default_illustration}
 \setutbmtitle{REPORT TITLE}
-\setutbmsubtitle{Internship Report ST40 - A2022}
+\setutbmsubtitle{Internship Report ST40 - P2023}
 \setutbmstudent{JACQUES Pierre-Paul}
 \setutbmstudentdepartment{Computer Science Depertment}
 \setutbmstudentpathway{IA - Artificial Intelligence}
@@ -46,32 +46,65 @@
 \setutbmcompanytutor{COMPANY Tutor}
 \setutbmschooltutor{SCHOOL Tutor}
 \setutbmkeywords{
-	Keyword 1 - Keyword 2 - Keyword 3 - Keyword 4 - Keyword 5 - Keyword 6
-	Keyword 7 – Keyword 8
+	[N°X – Y] Keyword 1,
+	[N°X – Y] Keyword 2,
+	[N°X – Y] Keyword 3,
+	[N°X – Y] Keyword 4,
 }
 \setutbmabstract{ \lipsum[1-2] }
 
 %----------------------------------------
 % Document configuration
 % Notes:
+% - '\graphicspath' is used to add the path to the images.
 % - '\addbibresource' is used to bibliographies files, use comma to add more than one.
 %----------------------------------------
 
+\graphicspath{{./assets/images/}}
 \addbibresource{bibliography.bib}
 
 %----------------------------------------
 % Document
 % Notes:
+% - Usually, the abstract is not referenced in the table of contents
+%	  nor the greetings section, so we use the '*' option to avoid it.
 % - Non-cited references are not shown in the bibliography, so we use the
 %	  '\nocite{*}' command to show them.
+% - Everything below '\subsubsection' is not shown in the table of contents,
 %----------------------------------------
 
 \begin{document}
 	\tahomafont
 
 	\makeutbmfrontcover{}
+ 
+	\section*{Abstract}
+	\lipsum[1-3]
+	
+	\newpage
 
-	% Your report content here
+	\section*{Greetings}
+	\lipsum[1-2] 
+
+	\tableofcontents
+	\newpage
+
+	\chapter{Lorem Ipsum}
+	\section{Section of Lorem Ipsum}
+	\lipsum[1-1]\footnote{Footnote of Lorem Ipsum}
+
+	\subsection{Sub Section of Lorem Ipsum}
+	\lipsum[1-1]
+
+	\subsubsection{Sub Sub Section of Lorem Ipsum}
+	\paragraph{title of paragraph}
+	\lipsum[1-1]
+
+	\paragraph{}
+	\lipsum[1-1]
+
+	\newpage
+
 	\nocite{*}
 	\printbibliography{}
 

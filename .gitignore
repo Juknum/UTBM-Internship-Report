@@ -18,6 +18,12 @@
 *.sta
 *.xdv
 
+## Biblatex auxiliary files:
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*

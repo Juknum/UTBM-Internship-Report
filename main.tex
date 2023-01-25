@@ -6,6 +6,8 @@
 \usepackage{libs/utbmcovers}
 \usepackage{lipsum}
 \usepackage{sectsty}
+\usepackage{csquotes}
+\usepackage[style=ieee]{biblatex}
  
 %----------------------------------------
 % Use Tahoma as base font
@@ -50,7 +52,18 @@
 \setutbmabstract{ \lipsum[1-2] }
 
 %----------------------------------------
+% Document configuration
+% Notes:
+% - '\addbibresource' is used to bibliographies files, use comma to add more than one.
+%----------------------------------------
+
+\addbibresource{bibliography.bib}
+
+%----------------------------------------
 % Document
+% Notes:
+% - Non-cited references are not shown in the bibliography, so we use the
+%	  '\nocite{*}' command to show them.
 %----------------------------------------
 
 \begin{document}
@@ -59,6 +72,8 @@
 	\makeutbmfrontcover{}
 
 	% Your report content here
+	\nocite{*}
+	\printbibliography{}
 
 	\makeutbmbackcover{}
 \end{document}

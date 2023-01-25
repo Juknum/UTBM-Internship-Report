@@ -57,7 +57,16 @@
 % Font definition
 %----------------------------------------
 
-\newfontfamily\tahomafont{Tahoma.ttf}[Path=./assets/fonts/, Extension=.ttf, BoldFont = *Bold]
+\newfontfamily\tahomafont{Tahoma.ttf}[
+	Path=./assets/fonts/, 
+	Extension=.ttf, 
+	BoldFont = *Bold, 
+	ItalicFont = *Italic, 
+	BoldItalicFont = *BoldItalic,
+	BoldSlantedFont = *BoldSlanted,
+	SlantedFont = *Slanted,
+	SmallCapsFont = *BoldSmallCaps,
+]
 
 %----------------------------------------
 % Default values
@@ -380,7 +389,7 @@
 		(schoollogo) at (anchor.south east)
 		{\includegraphics[height=2.18cm]{\@utbmschoollogo}};
 	\end{tikzpicture}
-	\newpage{}
+	\clearpage\hbox{}\newpage
 }
 
 %-----

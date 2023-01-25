@@ -40,10 +40,10 @@ To compile the report, you can use the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B
 
 You can find all configurable options of UTBM covers within the below code, but if you feel unhappy you can still edit the covers [with this file here](https://github.com/Juknum/UTBM-Internship-Report/blob/main/libs/utbmcovers.sty).  
 <!-- Code block mention (GitHub markdown feature) -->
-https://github.com/Juknum/UTBM-Internship-Report/blob/4a4aa097a3e6e16853c590cfbe10ac1e0bdc5c03/main.tex#L19-L40
+https://github.com/Juknum/UTBM-Internship-Report/blob/108d23dee1516941a37bd0aa2fcbf109c8e18f6c/main.tex#L32-L55  
 
 You can also modify colors using those variables:  
-https://github.com/Juknum/UTBM-Internship-Report/blob/3770f6fc659221329e1ce872e1351e1b71ad1892/libs/utbmcovers.sty#L36-L55
+https://github.com/Juknum/UTBM-Internship-Report/blob/108d23dee1516941a37bd0aa2fcbf109c8e18f6c/libs/utbmcovers.sty#L36-L55  
 
 Finally you can call both covers using:
 
@@ -61,7 +61,7 @@ Covers support english and french languages, you can change the language using t
 
 ## III. Installation
 
-While this template gives you the possibility to use it on Overleaf, if you want to use it on your computer, you will need [$LaTeX$](https://www.latex-project.org/get/).
+While this template gives you the possibility to use it on Overleaf, if you want to use it on your computer, you will need [LaTeX](https://www.latex-project.org/get/).
 
 There is multiple way to install it on your computer:
 
@@ -88,7 +88,7 @@ Easy to install but does not ship with Perl. If you choose MiKTeX, you have to i
 
 3. After restarting VS Code, you should be able to compile your $LaTeX$ files using the LaTeX Workshop extension!
 
-> _Any other $LaTeX$ distribution? Do a pull request!_
+> _Any other LaTeX distribution? Do a pull request!_
 
 ### 🖥️ Linux / MacOS
 

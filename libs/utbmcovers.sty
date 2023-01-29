@@ -389,14 +389,17 @@
 		(schoollogo) at (anchor.south east)
 		{\includegraphics[height=2.18cm]{\@utbmschoollogo}};
 	\end{tikzpicture}
-	\clearpage\hbox{}\newpage
+	\clearpage
+	\thispagestyle{empty}
+	\setcounter{page}{0}
+	\hbox{}\newpage
 }
 
 %-----
 % Make the back cover
 % \makeutbmbackcover[shift]
 \newcommand{\makeutbmbackcover}[1][(0,0)]{
-	\clearpage \ifodd\value{page}\hbox{}\newpage\fi
+	\clearpage\thispagestyle{empty} \ifodd\value{page}\hbox{}\newpage\fi
 	\thispagestyle{empty}
 	\begin{tikzpicture}[remember picture,overlay]
 		\tikzset{

@@ -1,11 +1,57 @@
-# 🗒️ UTBM — Internship Report  
+<h1>
+  <picture>
+    <source
+     srcset="https://github.com/Juknum/Juknum/assets/49886317/11f7f0ad-b50f-4a6b-8aec-422bacedd62e"
+     media="(prefers-color-scheme: dark)" />
+    <source
+     srcset="https://github.com/Juknum/UTBM-Internship-Report/assets/49886317/71a5ae6f-f7aa-465a-a1a6-83975aa35adc"
+     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img height="24" src="https://github.com/Juknum/UTBM-Internship-Report/assets/49886317/71a5ae6f-f7aa-465a-a1a6-83975aa35adc" />
+   </picture>
+  UTBM — Internship Report Template
+</h1>
 
 <!-- badges  -->
-![Contribute](https://img.shields.io/badge/Contribute%20!-C9284D?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/Juknum/UTBM-Internship-Report?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Juknum/UTBM-Internship-Report?style=for-the-badge)
 
-This repository is a template for internship reports at the UTBM. It is based on the [UTBM internship LaTeX version](https://github.com/pinam45/utbm-latex-internship-report-covers) and has been adapted and expanded with multiple functionalities.
+<p>
+This repository is a template for internship reports at the UTBM. It is based on the <a href="https://github.com/pinam45/utbm-latex-internship-report-covers">UTBM internship LaTeX version</a> and has been adapted and expanded with multiple functionalities.
+</p>
+
+<table>
+<tr>
+<td>
+Table of contents
+</td>
+</tr>
+<tr>
+<td>
+<ul>
+  <li><a href="#i-support">I. Support</a></li>
+  <li>
+    <a href="#ii-features">II. Usage & Features</a>
+    <ul>
+      <li><a href="#utbms-covers">UTBM's Covers</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#iii-usage">III. Usage</a>
+    <ul>
+      <li><a href="#online">Online</a></li>
+      <li>
+        <a href="#locally">Locally</a>
+        <ul>
+          <li><a href="#part-a-latex-distribution">Part A: LaTeX distribution</a></li>
+          <li><a href="#part-b-ide">Part B: IDE</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</td>
+</tr>
+</table>
 
 ## I. Support
 
@@ -16,7 +62,7 @@ This template can be used in several places:
 
 ---
 
-## II. Usage & Features
+## II. Features
 
 > **Warning**  
 > This template is free to use, but the covers belongs to the [UTBM](https://www.utbm.fr/) and can only be used with their authorization.  
@@ -31,7 +77,7 @@ You can find all configurable options of UTBM covers within the below code, but 
 
 https://github.com/Juknum/UTBM-Internship-Report/blob/108d23dee1516941a37bd0aa2fcbf109c8e18f6c/main.tex#L32-L55  
 
-You can also modify colors using those variables:  
+You can also modify their colors using those variables:  
 <!-- Code block mention (GitHub markdown feature) -->
 
 https://github.com/Juknum/UTBM-Internship-Report/blob/108d23dee1516941a37bd0aa2fcbf109c8e18f6c/libs/utbmcovers.sty#L36-L55  
@@ -80,6 +126,15 @@ There is multiple way to use this template, you can either use it online or loca
 <p align="center"><i>Any other online LaTeX editors to suggest?</i><p>
 
 ### Locally
+
+Clone this repository using the following command:
+
+```bash
+git clone 'https://github.com/Juknum/UTBM-Internship-Report/tree/main'
+```
+
+> **Note**  
+> You may also want to use this repository as a template, you can do it by clicking on the `Use this template` button or by clicking [here](https://github.com/new?template_name=UTBM-Internship-Report&template_owner=Juknum).
 
 #### Part A: LaTeX distribution
 

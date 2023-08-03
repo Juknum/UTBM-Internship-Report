@@ -13,6 +13,15 @@
     }
   ],
   "cSpell.words": [
-    "Tahoma"
+    "basictex",
+    "darwin",
+    "latexmk",
+    "makeutbmbackcover",
+    "makeutbmfrontcover",
+    "Tahoma",
+    "texlive",
+    "texliveonfly",
+    "tlmgr",
+    "usepackage"
   ]
 }

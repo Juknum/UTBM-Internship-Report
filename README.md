@@ -188,7 +188,35 @@ _Alternatively, you can turn on the auto-install feature and let MiKTeX install 
 </td>
 </tr>
 </table>
+<table>
+<tr>
+<th>
+  <img src="https://ctan.org/teaser/pkg/texlive"  height="16" style="margin: 0 6px -2px 0;">
+  TexLive
+</th>
+</tr>
+<tr>
+<td>
+<a href="https://tug.org/texlive/">Official website</a>     
 
+For more in depth information, have a look at the <a href="https://tug.org/texlive/doc.html">documentation</a> 
+
+Really popular $TeX$ distribution. The installation process despite being quite long enable the direct use and compilation of a project using this repository in VSCode as explained later. 
+<h5>On Windows</h5>
+
+Follow the <a href="https://tug.org/texlive/acquire-netinstall.html">link</a>, download `install-tl-windows.exe` and install the distribution exactly like any program.
+
+
+
+<h5>On MacOs (MacTex)</h5>
+
+> **Warning**   
+> The name is different but it is done by the same team of programmers. It has **not** been tested whether the operating conditions are identical than on windows. Let us know if you are in this situation. 
+
+An installation and use guide is available <a href="https://tug.org/mactex/">here</a>
+</td>
+</tr>
+</table>
 <p align="center"><i>Any other LaTeX distribution to suggest?</i></p>
 
 #### Part B: IDE
@@ -220,8 +248,9 @@ To compile the report, you can use the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B
 > **Note**  
 > More information on the LaTex Workshop extension can be found [here](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install).
     </td>
+    
+> You can open and use this project by opening the folder in the source control menu (on the left hand side of the interface) and using this   link : `https://github.com/Juknum/UTBM-Internship-Report.git`  
   </tr>
-
 </table>
 
 <p align="center"><i>Any other IDE to suggest?</i></p>

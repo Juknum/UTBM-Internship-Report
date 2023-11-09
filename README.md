@@ -232,6 +232,7 @@ After installing a LaTeX distribution, you will need an IDE to edit and compile 
   <tr>
     <td>
     <a href="https://code.visualstudio.com">Website</a>
+      
 This template **requires** the use of the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension to compile the $LaTeX$ files directly within VS Code.
 
 While not mandatory, the following extensions are recommended for some Quality of Life improvements:

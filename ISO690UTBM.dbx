@@ -1,0 +1,4 @@
+%Declare datamodel for consulté le
+\DeclareDatamodelFields[type=field,datatype=verbatim,nullok=true]{urldate}
+
+\DeclareDatamodelEntryfields{urldate}

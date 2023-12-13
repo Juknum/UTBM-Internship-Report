@@ -7,8 +7,13 @@
 \usepackage{lipsum}
 \usepackage{sectsty}
 \usepackage{csquotes}
-\usepackage[style=ieee]{biblatex}
- 
+\usepackage[backend=biber,
+style=authortitle,
+citestyle=verbose-ibid,
+abbreviate=false,
+language=french,
+datamodel=UtbmISOdatamodel]{biblatex} %ISO 690 Utbm
+\input{biblatex.cfg} %Import biblatex config
 %----------------------------------------
 % Use Tahoma as base font
 %----------------------------------------

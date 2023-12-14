@@ -1,0 +1,4 @@
+%Declare datamodel for consultation date
+\DeclareDatamodelFields[type=field,datatype=verbatim,nullok=true]{urldate}
+
+\DeclareDatamodelEntryfields{urldate}

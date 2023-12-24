@@ -64,10 +64,10 @@ This template can be used in several places:
 
 ## II. Features
 
-> **Important**  
+> [!IMPORTANT]  
 > This template is free to use, but the covers belongs to [UTBM](https://www.utbm.fr/) and can only be used with their authorization.  
 
-> **Note**  
+> [!NOTE]  
 > UTBM and all UTBM-related trademarks and logos are trademarks or registered trademarks of the [University of Technology of Belfort-Montbéliard](https://www.utbm.fr/) in France, other countries, or both.
 
 ### UTBM's Covers
@@ -133,7 +133,7 @@ Clone this repository using the following command:
 git clone 'https://github.com/Juknum/UTBM-Internship-Report/tree/main'
 ```
 
-> **Note**  
+> [!NOTE]  
 > You may also want to use this repository as a template. You can do this by clicking on the `Use this template` button or by clicking [here](https://github.com/new?template_name=UTBM-Internship-Report&template_owner=Juknum).
 
 #### Part A: LaTeX distribution
@@ -180,7 +180,7 @@ _Alternatively, you can enable the auto-install feature and let MiKTeX install m
     export PATH="/Users/<username>/bin:$PATH"
     ```
 
-    > **Warning**  
+    > [!WARNING]  
     > Here, we use the full path instead of `~/bin` or `$HOME/bin` because the `~` and `$HOME` variables do not work in combination with the VS Code `latex-workshop` extension.
 
 4. You should now be able to compile your $LaTeX$ files using MiKTeX.
@@ -209,7 +209,7 @@ Follow the [link](https://tug.org/texlive/acquire-netinstall.html), download `in
 
 <h5>On MacOS (MacTeX)</h5>
 
-> **Warning**  
+> [!WARNING]  
 > The name is different, but it is developed by the same team of programmers. It has **not** been tested whether the operating conditions are identical to those on Windows. Let us know if you are in this situation.
 
 An installation and usage guide is available [here](https://tug.org/mactex/). Do not hesitate to make a PR if you have any information to add.
@@ -244,7 +244,7 @@ While not mandatory, the following extensions are recommended for some Quality o
 
 To compile the report, you can use the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> shortcut or the `LaTeX Workshop: Build LaTeX project` command inside Visual Studio Code.
 
-> **Note**  
+> [!NOTE]  
 > More information on the LaTeX Workshop extension can be found [here](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install).
 
 You can open and use this project by opening the folder in the source control menu (on the left-hand side of the interface) and using this link: `https://github.com/Juknum/UTBM-Internship-Report.git`.

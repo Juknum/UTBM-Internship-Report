@@ -57,7 +57,7 @@ Table of Contents
 
 This template can be used in several places:
 
-- Online with [Overleaf](https://www.overleaf.com)
+- Online with [Overleaf](https://www.overleaf.com) or using GitHub Codespaces
 - Locally on Windows/MacOS/Linux
 
 ---
@@ -113,7 +113,7 @@ There are multiple ways to use this template; you can either use it online or lo
   </tr>
   <tr>
     <td>
-    
+
 1. There are two ways to import this template on [Overleaf](https://www.overleaf.com/):
     - You can either use the "Import from GitHub" button and paste the link of this repository. (This method requires a paid plan)
     - Alternatively, you can download the repository as a zip file and upload it on Overleaf. (This method is free)
@@ -123,6 +123,30 @@ There are multiple ways to use this template; you can either use it online or lo
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <th>
+      <img src="https://github.com/Juknum/UTBM-Internship-Report/assets/49886317/dba03968-0b1a-4812-a82d-742ffc8c31a8"  height="16" style="margin: 0 6px -2px 0;">
+      GitHub Codespaces
+    </th>
+  </tr>
+  <tr>
+    <td>
+
+1. Use this repository as a template using the top right green button
+2. Once you have your own repository, open it as a GitHub Codespaces and wait for it to fully build.
+3. Install the recommended VSCode extension to be able to compile your files with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+4. Run the following command to get full git access:
+
+  ```bash
+    git config --global --add safe.directory /workspace
+  ```
+
+</td>
+</tr>
+</table>
+
 <p align="center"><i>Any other online LaTeX editors to suggest?</i><p>
 
 ### Locally

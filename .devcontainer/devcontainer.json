@@ -1,0 +1,48 @@
+{
+	"name": "utbm-internship-template",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "vscode",
+	"runServices": ["vscode"],
+	"shutdownAction": "stopCompose",
+	"workspaceFolder": "/workspace",
+	"postCreateCommand": "",
+	"customizations": {
+		"codespaces": {
+			"settings": {
+				"latex-workshop.latex.tools": [
+					{
+						"name": "latexmk",
+						"command": "latexmk",
+						"args": [
+							"-xelatex",
+							"-synctex=1",
+							"-interaction=nonstopmode",
+							"-file-line-error",
+							"%DOC%"
+						]
+					}
+				],
+				"cSpell.words": [
+					"basictex",
+					"darwin",
+					"latexmk",
+					"makeutbmbackcover",
+					"makeutbmfrontcover",
+					"Tahoma",
+					"texlive",
+					"texliveonfly",
+					"tlmgr",
+					"usepackage"
+				]
+			},
+			"extensions": [
+				"tecosaur.latex-utilities",
+				"james-yu.latex-workshop",
+				"nickfode.latex-formatter",
+				"torn4dom4n.latex-support",
+				"streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-french"
+			]
+		}
+	}
+}

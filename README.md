@@ -41,12 +41,12 @@ This template can be used in several places:
 You can find all configurable options for UTBM covers in the code below. If you're unsatisfied, you still have the option to edit the covers using [this file](https://github.com/Juknum/UTBM-Internship-Report/blob/main/libs/utbmcovers.sty).  
 <!-- Code block mention (GitHub markdown feature) -->
 
-https://github.com/Juknum/UTBM-Internship-Report/blob/108d23dee1516941a37bd0aa2fcbf109c8e18f6c/main.tex#L32-L55  
+https://github.com/Juknum/UTBM-Internship-Report/blob/70ee78176a0e31da98b336f6d7f1e5ad61432a8b/main.tex#L40-L56  
 
 You can also modify their colors using these variables:  
 <!-- Code block mention (GitHub markdown feature) -->
 
-https://github.com/Juknum/UTBM-Internship-Report/blob/108d23dee1516941a37bd0aa2fcbf109c8e18f6c/libs/utbmcovers.sty#L36-L55  
+https://github.com/Juknum/UTBM-Internship-Report/blob/70ee78176a0e31da98b336f6d7f1e5ad61432a8b/libs/utbmcovers.sty#L34-L51  
 
 Finally you can call both covers using:
 
@@ -93,7 +93,15 @@ There are multiple ways to use this template; you can either use it online or lo
 <table>
   <tr>
     <th>
-      <img src="https://github.com/Juknum/UTBM-Internship-Report/assets/49886317/dba03968-0b1a-4812-a82d-742ffc8c31a8"  height="16" style="margin: 0 6px -2px 0;">
+      <picture>
+        <source
+        srcset="https://github.githubassets.com/favicons/favicon-dark.png"
+        media="(prefers-color-scheme: dark)" />
+        <source
+        srcset="https://github.githubassets.com/favicons/favicon.png"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+        <img height="16" src="https://github.githubassets.com/favicons/favicon.png" style="margin: 0 5px -2px 0;" />
+      </picture>
       GitHub Codespaces
     </th>
   </tr>

@@ -1,4 +1,5 @@
 %!TEX program = xelatex
+
 \documentclass[12pt, a4paper]{report}
 \usepackage[legalpaper, a4paper, margin=2cm]{geometry}
 \usepackage[english]{babel}
@@ -7,62 +8,57 @@
 \usepackage{lipsum}
 \usepackage{sectsty}
 \usepackage{csquotes}
-\usepackage[backend=biber,
-style=authortitle,
-citestyle=verbose-ibid,
-abbreviate=false,
-language=french,
-datamodel=ISO690UTBM]{biblatex} %ISO 690 Utbm
-\input{biblatex.cfg} %Import biblatex config
+
+\usepackage[
+	backend=biber,
+	style=authortitle,
+	citestyle=verbose-ibid,
+	abbreviate=false,
+	language=french,
+	datamodel=ISO690UTBM
+]{biblatex} % ISO 690 Utbm
+
+\input{biblatex.cfg}
+
 %----------------------------------------
-% Use Tahoma as base font
+% Use Arial as base font
 %----------------------------------------
 
-\setmainfont{Tahoma.ttf}[
+\setmainfont{Arial.ttf}[
 	Path=./assets/fonts/, 
 	Extension=.ttf, 
 	BoldFont = *Bold, 
 	ItalicFont = *Italic, 
 	BoldItalicFont = *BoldItalic,
-	BoldSlantedFont = *BoldSlanted,
-	SlantedFont = *Slanted,
-	SmallCapsFont = *BoldSmallCaps,
 ]
 
-\chapterfont{\tahomafont\fontseries{b}\fontsize{28pt}{36pt}}
-\sectionfont{\tahomafont\fontseries{b}\fontsize{24pt}{28pt}}
-\subsectionfont{\tahomafont\fontseries{b}\fontsize{20pt}{22pt}}
-\subsubsectionfont{\tahomafont\fontseries{b}\fontsize{20pt}{22pt}}
+\chapterfont{\arialfont\fontseries{b}\fontsize{28pt}{36pt}}
+\sectionfont{\arialfont\fontseries{b}\fontsize{24pt}{28pt}}
+\subsectionfont{\arialfont\fontseries{b}\fontsize{20pt}{22pt}}
+\subsubsectionfont{\arialfont\fontseries{b}\fontsize{20pt}{22pt}}
 
 %----------------------------------------
 % UTBM covers configuration
 %----------------------------------------
 
-\setutbmfrontillustration{assets/images/utbm_default_illustration}
-\setutbmtitle{REPORT TITLE}
-\setutbmsubtitle{Internship Report ST40 - P2023}
-\setutbmstudent{JACQUES Pierre-Paul}
-\setutbmstudentdepartment{Computer Science Depertment}
-\setutbmstudentpathway{IA - Artificial Intelligence}
-\setutbmcompany{Company DEMO-Controlers}
-\setutbmcompanyaddress{8 rue de la Fierté\\75 013 Paris}
-\setutbmcompanywebsite{www.democontrollers.com}
-\setutbmcompanylogo{assets/images/default_company}
-\setutbmcompanytutor{COMPANY Tutor}
-\setutbmschooltutor{SCHOOL Tutor}
-\setutbmkeywords{
-	[N°X – Y] Keyword 1,
-	[N°X – Y] Keyword 2,
-	[N°X – Y] Keyword 3,
-	[N°X – Y] Keyword 4,
-}
-\setutbmabstract{ \lipsum[1-2] }
+% \setutbmfrontillustration{}
+% \setutbmtitle{}
+% \setutbmsubtitle{}
+% \setutbmstudent{}
+% \setutbmstudentdepartment{}
+% \setutbmstudentpathway{}
+% \setutbmcompany{}
+% \setutbmcompanyaddress{}
+% \setutbmcompanywebsite{}
+% \setutbmcompanytutor{}
+% \setutbmschooltutor{}
+% \setutbmabstract{}
 
 %----------------------------------------
 % Document configuration
 % Notes:
-% - '\graphicspath' is used to add the path to the images.
-% - '\addbibresource' is used to bibliographies files, use comma to add more than one.
+% - '\graphicspath' refers to the path where images are stored.
+% - '\addbibresource' refers to the bibliography file(s), separated by commas.
 %----------------------------------------
 
 \graphicspath{{./assets/images/}}
@@ -79,7 +75,7 @@ datamodel=ISO690UTBM]{biblatex} %ISO 690 Utbm
 %----------------------------------------
 
 \begin{document}
-	\tahomafont
+	\arialfont
 
 	\makeutbmfrontcover{}
  

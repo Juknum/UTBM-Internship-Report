@@ -16,48 +16,14 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Juknum/UTBM-Internship-Report?style=for-the-badge)
 
 <p>
-This repository serves as a template for internship reports at UTBM. It is built upon the <a href="https://github.com/pinam45/utbm-latex-internship-report-covers">UTBM internship LaTeX version</a> and has been adapted and expanded with multiple functionalities.
+This repository serves as a template for internship reports at UTBM. It is built upon the <a href="https://github.com/pinam45/utbm-latex-internship-report-covers">UTBM internship LaTeX version</a> and has been updated, adapted and expanded with multiple functionalities.
 </p>
-
-<table>
-<tr>
-<td>
-Table of Contents
-</td>
-</tr>
-<tr>
-<td>
-<ul>
-  <li><a href="#i-support">I. Support</a></li>
-  <li>
-    <a href="#ii-features">II. Usage & Features</a>
-    <ul>
-      <li><a href="#utbms-covers">UTBM's Covers</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="#iii-usage">III. Usage</a>
-    <ul>
-      <li><a href="#online">Online</a></li>
-      <li>
-        <a href="#locally">Locally</a>
-        <ul>
-          <li><a href="#part-a-latex-distribution">Part A: LaTeX distribution</a></li>
-          <li><a href="#part-b-ide">Part B: IDE</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-</td>
-</tr>
-</table>
 
 ## I. Support
 
 This template can be used in several places:
 
-- Online with [Overleaf](https://www.overleaf.com) or using GitHub Codespaces
+- Online with [Overleaf](https://www.overleaf.com) or GitHub Codespaces
 - Locally on Windows/MacOS/Linux
 
 ---
@@ -134,7 +100,7 @@ There are multiple ways to use this template; you can either use it online or lo
   <tr>
     <td>
 
-1. Use this repository as a template using the top right green button
+1. Use this repository as a template by clicking on the `Use this template` button or by clicking [here](https://github.com/new?template_name=UTBM-Internship-Report&template_owner=Juknum).
 2. Once you have your own repository, open it as a GitHub Codespaces and wait for it to fully build.
 3. Install the recommended VSCode extension to be able to compile your files with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 4. Run the following command to get full git access:
@@ -151,14 +117,7 @@ There are multiple ways to use this template; you can either use it online or lo
 
 ### Locally
 
-Clone this repository using the following command:
-
-```bash
-git clone 'https://github.com/Juknum/UTBM-Internship-Report/tree/main'
-```
-
-> [!NOTE]  
-> You may also want to use this repository as a template. You can do this by clicking on the `Use this template` button or by clicking [here](https://github.com/new?template_name=UTBM-Internship-Report&template_owner=Juknum).
+Use this repository as a template by clicking on the `Use this template` button or by clicking [here](https://github.com/new?template_name=UTBM-Internship-Report&template_owner=Juknum).
 
 #### Part A: LaTeX distribution
 
